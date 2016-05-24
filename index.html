@@ -1,10 +1,50 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <title>Buddy Guide - Hello World</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet">
+    <style type="text/css">
+
+        html {
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            height: 100%;
+        }
+
+        body {
+            font-family: 'Droid Sans Mono', Consolas, "Courier New", monospace;
+            background-color: #fff;
+            box-sizing: border-box;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            color: #000;
+        }
+
+        .bg-black {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .hello-world {
+            font-size: 48px;
+        }
+
+        .hello-world span:first-child {
+            color: #f92672;
+        }
+
+        .hello-world span:last-child {
+            color: #a6e22e;
+        }
+    </style>
 </head>
-<body>
-	<p>Hello World!tda!dsdsdsds! dsd</p>
+<body class="bg-black">
+    <p class="hello-world">&lt;<span>hello</span><span>-world</span> /&gt;</p>
 </body>
 </html>
